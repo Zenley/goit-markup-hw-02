@@ -1,12 +1,22 @@
-.logo-first-color{
+.page-size{
+    width: 1440px;
+    height: 2592px;
+    top: -1169px;
+    left: 370px;
+}
+a{
+    text-decoration: none;
+}
+.logo{
     color: #4D5AE5;
     padding-right: 0px;
     margin-right: 0px;
     display: inline-block;
 }
-.logo-second-color:nth-child(2){
+.logo:nth-child(2){
     display: inline-block;
     margin-left: -0.25em;
+    color: #2E2F42;
 }
 .global-header{
     background-color:#E7E9FC;
@@ -22,6 +32,16 @@
     margin: 76;
     padding: 0;
 }
+a[href="studio.html"] {
+    color: #2E2F42
+}
+a[href="portofolio.html"]{
+    color: #2E2F42
+}
+a[href="contacts.html"]{
+    color: #2E2F42
+}
+
 
 .nav-list li {
     display: inline-block;
@@ -80,6 +100,7 @@
     text-align: center;
     display: inline-block;
     padding-right: 24px;
+    align-items: center;
     
 }
     .first-card{
