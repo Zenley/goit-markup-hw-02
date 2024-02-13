@@ -1,3 +1,8 @@
+:root {
+    --subtitle-color: #2E2F42;
+    --text-color: #434455;
+}
+
 .page-size{
     width: 1440px;
     height: 2592px;
@@ -79,8 +84,15 @@ a[href="contacts.html"]{
 .description-tab{
     list-style: none;
 }
+.description-tab > li > h4{
+    color: var(--subtitle-color);
+}
+.description-tab > li > p{
+    color: var(--text-color);
+}
 .what-we-do{
     text-align: center;
+        color: var(--subtitle-color);
 }
 .what-we-do-pics{
     list-style: none;
@@ -89,6 +101,7 @@ a[href="contacts.html"]{
 .what-we-do-pics li{
     display: inline-block;
     padding-right: 24px;
+
 }
 .our-team{
     text-align: center;
