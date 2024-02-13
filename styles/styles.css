@@ -1,0 +1,9 @@
+.logo-first-color{
+    color: #4D5AE5;
+    padding-right: 0px;
+    margin-right: 0px;
+    display: inline-block;
+}
+.logo-second-color:nth-child(2){
+    margin-left: -0.25em;
+}
