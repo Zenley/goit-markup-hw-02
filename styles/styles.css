@@ -122,3 +122,12 @@ a[href="contacts.html"]{
     .second-card{
         margin-left: -0.5em;
     }
+.portofolio-buttons{
+    list-style: none;
+    text-align: center;
+}
+    .portofolio-list{
+    list-style: none;
+}
+
+
