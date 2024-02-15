@@ -1,84 +1,91 @@
 :root {
     --subtitle-color: #2E2F42;
     --text-color: #434455;
+    --title-font-family: "Roboto",
+        sans-serif;
+    --text-font-family: "Roboto",
+        sans-serif;
+        --logo-font-family: "Raleway",
+            sans-serif;
+            
+button[type="button"] {
+cursor:pointer;
 }
-
-.page-size{
-    width: 1440px;
-    height: 2592px;
-    top: -1169px;
-    left: 370px;
-}
-a{
-    text-decoration: none;
-}
-.logo{
+.logo {
     color: #4D5AE5;
     padding-right: 0px;
     margin-right: 0px;
     display: inline-block;
 }
-.logo:nth-child(2){
+
+.logo:nth-child(2) {
     display: inline-block;
     margin-left: -0.25em;
     color: #2E2F42;
 }
+
+}        
+a {
+    text-decoration: none;
+}
+body{
+    font-family: var(--title-font-family);
+}
+h1,
+h2{
+    font-weight: 700;
+}
+h4{
+    font-weight: 500;
+}
+
+.nav-bar{
+    list-style: none;
+    font-weight: 500;
+    color: var(--subtitle-color);
+}
+/* PHONE AND EMAIL COLOR */
+.global-header>a{
+    color: var(--text-color);
+}
+/* Background color for hero section */
+.hero-section {
+    background-color: #2E2F42;
+    height: 600px;
+}
+.hero-section>h1{
+    color: #ffffff;
+    text-align: center;
+    padding-top: 182px;
+    font-size: 56px;
+    line-height: 3,75em;
+}
+
 .global-header{
     background-color:#E7E9FC;
     border: 1px;
-}
-.nav-bar{
-    width: 261px;
-    display: flex;
-    
-}
-.nav-list {
-    list-style: none;
-    margin: 76;
-    padding: 0;
-}
-a[href="studio.html"] {
-    color: #2E2F42
-}
-a[href="portofolio.html"]{
-    color: #2E2F42
-}
-a[href="contacts.html"]{
-    color: #2E2F42
+    margin-bottom: -45px;
 }
 
+[href$=".html"]{
+    color: var(--subtitle-color);
+}
 
 .nav-list li {
     display: inline-block;
 }
-.hero-section{
-    background-color: #2E2F42;
-    width: 1440px;
-    height: 600px;
-    margin-top: -45px;
-}
-.title{
-    color: #fff;
-    text-align: center;
-    font-weight: 700;
-    width: 496;
-    height: 120;
-    font-size: 56px;
-    padding-top: 188px;
-    padding-right: 472px;
-    padding-left: 472px;
-}
+
+
 .order-service{
     background-color:#4D5AE5;
-    padding-top: 48px;
-    margin-left: 656px;
-    margin-right: 635px;
     border-radius: 4px;
-        padding: 16px 32px;
         width: 169px;
         height: 56px;
         text-align: center;
         color: #fff;
+        margin-left: 835px;
+        font-weight: 500;
+        line-height: 1,5;
 }
 
 .description-tab{
@@ -115,19 +122,6 @@ a[href="contacts.html"]{
     padding-right: 24px;
     align-items: center;
     
-}
-    .first-card{
-        margin-right: -0.1em;
-    }
-    .second-card{
-        margin-left: -0.5em;
-    }
-.portofolio-buttons{
-    list-style: none;
-    text-align: center;
-}
-    .portofolio-list{
-    list-style: none;
-}
+
 
 
