@@ -11,19 +11,18 @@
 button[type="button"] {
 cursor:pointer;
 }
-.logo {
+.logo::before{
+    content: "WEB";
     color: #4D5AE5;
-    padding-right: 0px;
-    margin-right: 0px;
-    display: inline-block;
+    font-family: var(--logo-font-family);
+    font-weight: 800;
 }
-
-.logo:nth-child(2) {
-    display: inline-block;
-    margin-left: -0.25em;
+.logo{
+    font-family: var(--logo-font-family);
+    font-weight: 800;
     color: #2E2F42;
+    line-height: 1,31;
 }
-
 }        
 a {
     text-decoration: none;
@@ -38,30 +37,36 @@ h2{
 h4{
     font-weight: 500;
 }
-
+/* NAV STYLING */
 .nav-bar{
     list-style: none;
     font-weight: 500;
     color: var(--subtitle-color);
+    display: inline-block;
 }
-.global-header{
+.nav-list li {
+    list-style: none;
+    display: inline-block;
     line-height: 1,5;
 }
+
 /* PHONE AND EMAIL COLOR */
 .global-header>a{
     color: var(--text-color);
+    line-height: 1.5;
 }
 /* Background color for hero section */
 .hero-section {
     background-color: #2E2F42;
     height: 600px;
 }
+
 .hero-section>h1{
     color: #ffffff;
     text-align: center;
     padding-top: 182px;
     font-size: 56px;
-    line-height: 3,75em;
+    line-height: 3.75;
 }
 
 .global-header{
@@ -74,11 +79,6 @@ h4{
     color: var(--subtitle-color);
 }
 
-.nav-list li {
-    display: inline-block;
-}
-
-
 .order-service{
     background-color:#4D5AE5;
     border-radius: 4px;
@@ -88,14 +88,17 @@ h4{
         color: #fff;
         margin-left: 835px;
         font-weight: 500;
-        line-height: 1,5;
+        line-height: 1.5;
 }
 
 .description-tab{
     list-style: none;
+    line-height: 1.5;
+    display: inline-flex;
 }
 .description-tab > li > h4{
     color: var(--subtitle-color);
+    font-size: 20px;
 }
 .description-tab > li > p{
     color: var(--text-color);
@@ -103,6 +106,8 @@ h4{
 .what-we-do{
     text-align: center;
         color: var(--subtitle-color);
+        line-height: 2.5;
+        font-size: 36px;
 }
 .what-we-do-pics{
     list-style: none;
@@ -110,21 +115,83 @@ h4{
 }
 .what-we-do-pics li{
     display: inline-block;
-    padding-right: 24px;
-
 }
 .our-team{
     text-align: center;
 }
 .our-team-pics{
     list-style: none;
+    line-height: 1.5;
 }
-.our-team-pics li{
+.our-team-pics>li{
     text-align: center;
     display: inline-block;
     padding-right: 24px;
     align-items: center;
 }
+.address{
+    line-height: 1.5;
+    color: #ffffff;
+}
+.footer{
+    background-color: #2E2F42;
+    height: 312px;
+    padding-top: 100px;
+}
+.logo-footer::before{
+    content: "WEB";
+    color: #4D5AE5;
+    font-family: var(--logo-font-family);
+    font-weight: 800;
+}
+.logo-footer{
+    font-family: var(--logo-font-family);
+        font-weight: 800;
+        color: #ffffff;
+        line-height: 1.31;  
+}
+/* Portofolio only */
+.portofolio-buttons{
+    text-align: center;
+}
+.portofolio-buttons>li{
+    list-style: none;
+}
+/* Image list */
+.portofolio-list-one{
+    list-style: none;
+    display: flex;
+}
+.portofolio-list-one>li>h4{
+color: var(--subtitle-color)
+}
+.portofolio-list-one>li>p{
+    color: var(--text-color)
+}
+.portofolio-list-two {
+    list-style: none;
+    display: flex;
+}
 
+.portofolio-list-two>li>h4 {
+    color: var(--subtitle-color)
+}
 
+.portofolio-list-two>li>p {
+    color: var(--text-color)
+}
+.portofolio-list-three {
+    list-style: none;
+    display: flex;
+}
 
+.portofolio-list-three>li>h4 {
+    color: var(--subtitle-color)
+}
+
+.portofolio-list-three>li>p {
+    color: var(--text-color)
+}
+.filters{
+    margin-top: 50px;
+}
