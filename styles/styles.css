@@ -57,13 +57,24 @@ h4 {
     display: inline-block;
     line-height: 1, 5;
 }
-
+[href$=".html"]:hover{
+    color: #404BBF;
+}
+[href$=".html"]:focus {
+    color: #404BBF;
+}
 /* PHONE AND EMAIL COLOR */
 .global-header>a {
     color: var(--text-color);
     line-height: 1.5;
 }
+.global-header>a:hover{
+color: #404BBF;
+}
 
+.global-header>a:focus{
+    color: #404BBF;
+}
 /* Background color for hero section */
 .hero-section {
     background-color: #2E2F42;
