@@ -113,6 +113,11 @@ color: #404BBF;
     line-height: 1.5;
 }
 
+.order-service:hover{
+    background-color: #E7E9FC;
+    color: #4D5AE5;
+}
+
 .description-tab {
     list-style: none;
     line-height: 1.5;
