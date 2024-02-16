@@ -100,6 +100,8 @@ color: #404BBF;
 }
 
 .order-service {
+    font-family: var(--title-font-family);
+    font-weight: 500;
     background-color: #4D5AE5;
     border-radius: 4px;
     width: 169px;
